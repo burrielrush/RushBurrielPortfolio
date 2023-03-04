@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 80px;
+    text-align: center;
+    background: none;
+    color: white;
+}
+
+nav {
+    text-align: right;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-family: cursive;
+}
+h2 {
+    color: white;
+    font-family: cursive
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex: 30%;
+    background-color: none;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+section {
+    background;
+    font-style: italic;
+    color: whitesmoke;
+    flex: 70%;
+    background-color: none;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: none;
+    color: red;
+}
+.sample-img {
+    background: none;
+    max-width: 100%;
+    padding: 25px;
+    min-height: auto;
+}
+style {
+    min-width: none;
+    max-width: 100%;
+}
+.photo-button-1 {
+    color: white;
+    background-image: url("images/IMG_5663.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+  }
+
+.photo-button-2 {
+    color: white;
+    background-image: url("images/IMG_5675.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+  }
+  .photo-button-3 {
+    color: white;
+    background-image: url("images/IMG_5665.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+  }
+  img {
+    width: 400px;
+    height: auto;
+  }
+
+  a {
+    font-family: cursive;
+    size: 
+  }
+  
+  button {
+  }
+  
