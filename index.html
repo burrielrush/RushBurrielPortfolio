@@ -6,53 +6,59 @@
     <title>Rushs Portfolio</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <style>
-    body, header {
-        background-image: url('/images/IMG_5084.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-  </style>
+
   <body>
     <header>
-        <a>Rush Burriel</a>
-         <div><img src="/images/rush and lola.jpeg"></div>
+        <h1>Rush Burriel</h1>
+         <img src="/images/rush and lola.jpeg">
         <p>Thank you for taking a look at my portfolio!</p>
     </header>
-    
+
     <nav>
-        <button>
-            <button class="photo-button-1" onclick="location.href='#section-1'"> About me </button>
-            <button class="photo-button-2" onclick="location.href='#section-2'"> Projects </button>
-            <button class="photo-button-3" onclick="location.href='#section-3'"> Upcoming projects </button>
-        </button>
+        <div class="buttons">
+            <button class="button-1" onclick="location.href='#section-1'"> About me </button>
+            <button class="button-2" onclick="location.href='#section-2'"> Projects </button>
+            <button class="button-3" onclick="location.href='#section-3'"> Upcoming projects </button>
+        </div>
     </nav>
 
 
     <main>
-        <aside>
-        </aside>
+        <div class="sections">
         <section id="section-1">
-            <h1>About me
+            <div class="aboutme">
+            <h1>About me</h1>
+            <div class="family-photo">
+            <a href=""><img src="/images/IMG_0942.jpg" alt="family photo" title="Family photo"></a>
+            </div>
+            <div>
                 <p>My name is Rush Burriel. I am from Layton, Utah.<br>
                  I enjoy spending time with my wife, my 3 year old son and 1 year old daughter.<br>
                  I am excited to learn how to code and develope webpages at the tip of my fingers.</p>
-            </h1> 
+            </div>     
         </section> 
         <section id="section-2">
-            <h2>portfolio
-                <p>this will contain my portfolio</p>
-            </h2>
+            <div class="portfolio">
+            <h1>Portfolio</h1>
+            <a href="https://burrielrush.github.io/hw1/"><img src="/images/firsthw.png" alt="first homework photo" title="First project"></a>
+                <li>
+                    <a href="https://burrielrush.github.io/hw1/" target="_blank" title="Horiseon project"> Live Horiseon project</li>
+                <li><a href="https://github.com/burrielrush/hw1" target="_blank" title="Horiseon project"> Horiseon project git hub repo    
+                    </a>
+                </li>
+            </div>     
         </section>
         <section id="section-3">
-            <h3> Upcoming projects 
-                <p>This is where my projects go</p>
-            </h3>
+            <div class="upcoming-projects">
+            <h1> Upcoming projects</h1>
+            <a href=""><img src="/images/loadingproject.jpeg" alt="newprojects" title="New projects"></a>
+                <li>All future projects will be displayed here</li>
+            </div>    
         </section>
+        </div>
     </main>
     <footer>
-        <h2>this will be my foot</h2>
+        <h2>Thank you for taking the time to look at my portfolio, there is much more to come!</h2>
     </footer>
   </body>
 </html> 
