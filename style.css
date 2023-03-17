@@ -146,9 +146,12 @@ a {
 }
 
 h1 {
-  color: black;
+  border-radius: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
   margin: 10px auto;
   flex: wrap;
-  width: auto;
+  width: 300px;
   text-align: center;
 }
