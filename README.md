@@ -26,8 +26,9 @@ Technologies used: HTML, CSS
 
 Link to project: https://burrielrush.github.io/RushBurrielPortfolio/
 
-
 ##Portfolio photos:
+
+
 <img width="393" alt="Screenshot 2023-03-17 at 10 56 02 AM" src="https://user-images.githubusercontent.com/123046249/225969883-2cf2f524-77cb-4da8-9463-c2a11f76a999.png">
 
 <img width="396" alt="Screenshot 2023-03-17 at 10 56 29 AM" src="https://user-images.githubusercontent.com/123046249/225969993-7da95f36-96f9-4688-83b5-5df7f292400e.png">
